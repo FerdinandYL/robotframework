@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 
 *** Test Cases ***
-Search nama pribadi di google
+Search nama di google
     Open Browser    url=https://www.google.com    browser=chrome
     Input Text    locator=q    text=
     Press Keys    None    RETURN
